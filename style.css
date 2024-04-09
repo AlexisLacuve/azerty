@@ -1,0 +1,75 @@
+body {
+    font-family: 'Palatino', serif;
+    color: black;
+    background-color: #AFE7CB;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Ajout de styles pour les logos sociaux */
+.social-links {
+    text-align: center;
+}
+
+.social-logo {
+    width: 50px; /* Largeur du logo */
+    height: 50px; /* Hauteur du logo */
+    border-radius: 50%; /* Pour rendre le logo circulaire */
+    margin: 10px; /* Marge autour des logos */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.card-white {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+
+.welcome-message h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.introduction-section h2,
+.education-section h2,
+.experience-section h2,
+.hobbies-section h2,
+.footer-section h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.introduction-section p,
+.education-section p,
+.experience-section p,
+.hobbies-section p,
+.footer-section p {
+    font-size: 16px;
+    margin-top: 5px;
+
+
+
+
+}
+
